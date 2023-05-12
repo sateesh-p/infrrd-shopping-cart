@@ -8,4 +8,5 @@ export interface ProductItem {
   category: string;
   quantityAvailable: number;
   quantityToCart?: number;
+  specifications: string;
 }

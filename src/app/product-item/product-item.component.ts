@@ -35,8 +35,8 @@ export class ProductItemComponent {
     this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
   }
 
-  doSomething() {
-    
+  deleteItemFromCart(){
+    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: 0} }));
   }
 
 }

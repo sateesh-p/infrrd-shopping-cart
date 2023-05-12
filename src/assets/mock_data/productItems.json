@@ -5,7 +5,8 @@
     "category": "Electronics",
     "quantityAvailable": 10,
     "price": 20,
-    "description": "Edd",
+    "description": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones designed, developed, and marketed by Apple Inc.",
+    "Specifications":"146.7 x 71.5 x 7.4 mm, 6.1 inches, 90.2 cm2, iOS 14.1, upgradable to iOS 16.4.1, 128GB 6GB RAM",  
     "image": "https://ovantica.com/pub/media/catalog/product/cache/359e51c8e354c4e2b5af98e814f93978/1/2/12_pro_grp_1_.jpg"
   },
   {
@@ -14,7 +15,7 @@
     "category": "Electronics",
     "quantityAvailable": 5,
     "price": 20,
-    "description": "Edd",
+    "description": "The Samsung Galaxy S21 is a series of Android-based smartphones designed, developed, marketed, and manufactured by Samsung Electronics as part of its Galaxy.",
     "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990elvginu/gallery/in-galaxy-s21-fe-g990-sm-g990elvginu-thumb-530606516?imwidth=480"
   },
   {
@@ -23,7 +24,7 @@
     "category": "Gaming",
     "quantityAvailable": 8,
     "price": 20,
-    "description": "Edd",
+    "description": "The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment.",
     "image": "https://boip.in/47318-large_default/sony-playstation-5-ps5-console-complete-set-imported.jpg"
   },
   {
@@ -32,7 +33,7 @@
     "category": "Gaming",
     "quantityAvailable": 3,
     "price": 20,
-    "description": "Edd",
+    "description": "The Xbox Series X and Series S are the fourth generation of the Xbox series of home video game consoles developed and sold by Microsoft.",
     "image": "https://assets.xboxservices.com/assets/2b/50/2b50e275-53ee-4da9-a3d4-55d33548e017.jpg?n=Xbox-Series-X_Superhero-0_Dream-Particles_768x1034.jpg"
   },
   {
@@ -41,7 +42,7 @@
     "category": "Fashion",
     "quantityAvailable": 12,
     "price": 20,
-    "description": "Edd",
+    "description": "Nike Air Max is a line of shoes produced by Nike, Inc., with the first model released in 1987.",
     "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
   },
   {
@@ -50,8 +51,8 @@
     "category": "Fashion",
     "quantityAvailable": 6,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Adidas Stan Smith is a tennis shoe made by Adidas, and first launched in 1965. ",
+    "image": "https://m.media-amazon.com/images/I/71JqPPoDliL._AC_UY1000_.jpg"
   },
   {
     "id": 7,
@@ -59,8 +60,8 @@
     "category": "Electronics",
     "quantityAvailable": 15,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "AirPods Pro are wireless Bluetooth in-ear headphones designed by Apple, initially released on October 30, 2019.",
+    "image": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 8,
@@ -68,8 +69,8 @@
     "category": "Electronics",
     "quantityAvailable": 9,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Dell XPS is a line of consumer-oriented high-end laptop and desktop computers manufactured by Dell.",
+    "image": "https://m.media-amazon.com/images/I/61hSHC1ClAL._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 9,
@@ -77,8 +78,8 @@
     "category": "Electronics",
     "quantityAvailable": 7,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "HP Pavilion is a line of consumer-oriented laptop and desktop computers produced by HP Inc.",
+    "image": "https://m.media-amazon.com/images/I/711Nx6ZoRML._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 10,
@@ -86,8 +87,8 @@
     "category": "Electronics",
     "quantityAvailable": 11,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The WH-1000XM4 are closed-back headphones with a single 40mm dynamic driver on either side",
+    "image": "https://m.media-amazon.com/images/I/61ldeo9lYbL._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 11,
@@ -95,8 +96,8 @@
     "category": "Gaming",
     "quantityAvailable": 4,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The logitech g502 is a mouse that was released by logitech in the year 2014. It features a free spinning wheel as well as the PWM3366 sensor.",
+    "image": "https://m.media-amazon.com/images/I/81-nE4e2YvL._AC_UL1280_FMwebp_QL65_.jpg"
   },
   {
     "id": 12,
@@ -104,8 +105,8 @@
     "category": "Gaming",
     "quantityAvailable": 6,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Razer BlackWidow is a range of mechanical gaming keyboards made by Razer.",
+    "image": "https://m.media-amazon.com/images/I/81fLbHCerOL._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 13,
@@ -113,8 +114,8 @@
     "category": "Fashion",
     "quantityAvailable": 8,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Levi Strauss & Co is an American clothing company known worldwide for its Levi's brand of denim jeans.",
+    "image": "https://m.media-amazon.com/images/I/51QW283UXbS._AC_SR480,220_QL70_.jpg"
   },
   {
     "id": 14,
@@ -122,8 +123,8 @@
     "category": "Fashion",
     "quantityAvailable": 7,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Ray-Ban Wayfarer sunglasses have been manufactured by Ray-Ban since 1952, which in turn has belonged to the Italian Luxottica Group since 1999.",
+    "image": "https://m.media-amazon.com/images/I/317B4CN0pfL._AC_SR480,220_QL70_.jpg"
   },
   {
     "id": 15,
@@ -131,8 +132,8 @@
     "category": "Electronics",
     "quantityAvailable": 9,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The Canon EOS 800D, known in the Americas as the EOS Rebel T7i and in Japan as the EOS Kiss X9i, is a digital single-lens reflex camera announced by Canon.",
+    "image": "https://m.media-amazon.com/images/I/71x1uAc9KjL._AC_SR360,240_QL70_.jpg"
   },
   {
     "id": 16,
@@ -140,8 +141,8 @@
     "category": "Gaming",
     "quantityAvailable": 10,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The Nintendo Switch is a hybrid video game console developed by Nintendo and released worldwide in most regions on March 3, 2017.",
+    "image": "https://m.media-amazon.com/images/I/71YDg2Rg9cL._AC_SR360,240_QL70_.jpg"
   },
   {
     "id": 17,
@@ -149,8 +150,8 @@
     "category": "Fashion",
     "quantityAvailable": 3,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Vans is an American manufacturer of skateboarding shoes and related apparel, established in Anaheim, California, and owned by VF Corporation.",
+    "image": "https://m.media-amazon.com/images/I/71-roQlhCuL._AC_UY436_FMwebp_QL65_.jpg"
   },
   {
     "id": 18,
@@ -158,8 +159,8 @@
     "category": "Electronics",
     "quantityAvailable": 5,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication.",
+    "image": "https://m.media-amazon.com/images/I/71aLryIN+ZL.jpg"
   },
   {
     "id": 19,
@@ -167,8 +168,8 @@
     "category": "Electronics",
     "quantityAvailable": 12,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The GoPro HERO (2014) can capture 5mp still images and has a 5fps burst option. It is able to record 1080P at 30 or 25fps and 720P at 60 or 50fps.",
+    "image": "https://m.media-amazon.com/images/I/8167Vk47NGL._AC_UL800_FMwebp_QL65_.jpg"
   },
   {
     "id": 20,
@@ -176,7 +177,52 @@
     "category": "Electronics",
     "quantityAvailable": 8,
     "price": 20,
-    "description": "Edd",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "description": "The QuietComfort Earbuds (QC Earbuds) were released on 5 October 2020.",
+    "image": "https://m.media-amazon.com/images/I/71nDq64qKIL._AC_UY436_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 21,
+    "name": "The Beauty of Darkness: The Remnant Chronicles, Book Three",
+    "category": "Books",
+    "quantityAvailable": 10,
+    "price": 15,
+    "description": "The third and final book in the New York Times-bestselling Remnant Chronicles.",
+    "image": "https://m.media-amazon.com/images/I/91Jo+-PQE6L._AC_UY436_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Disney Junior Mickey Mouse",
+    "category": "Toys",
+    "quantityAvailable": 14,
+    "price": 10,
+    "description": "Join Mickey Mouse on a mixed-up adventure with the Disney Junior Mickey Mouse Beanbag Plush.",
+    "image": "https://m.media-amazon.com/images/I/71H4pyP8AgL._AC_UL800_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Pro Kitchen Knife",
+    "category": "Kitchen",
+    "quantityAvailable": 5,
+    "price": 15,
+    "description": "High-Carbon Stainless Steel Blade- It is manufactured from high-quality stainless steel that maintains its functionality for a long time.",
+    "image": "https://m.media-amazon.com/images/I/71jTqtlWTBL._AC_UL800_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Outdoor Basketballs",
+    "category": "Sports",
+    "quantityAvailable": 17,
+    "price": 20,
+    "description": "Street ball will never die. Built for summer tournaments and Saturdays at the park, the Spalding Street outdoor basketball holds to the official size and weight.",
+    "image": "https://m.media-amazon.com/images/I/7187crn3osS._AC_UL800_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Versace Bright Crystal",
+    "category": "Beauty",
+    "quantityAvailable": 10,
+    "price": 300,
+    "description": "An enthralling and voluptuous fragrance, eloquent, symbolizing the Versace woman who is strong and sure of her charm; sensual and feminine, always glamorous",
+    "image": "https://m.media-amazon.com/images/I/51kABSdV3VL._AC_UL800_FMwebp_QL65_.jpg"
   }
 ]

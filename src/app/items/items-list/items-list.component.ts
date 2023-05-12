@@ -8,6 +8,7 @@ import { getItems } from 'src/app/store/actions/shopActions';
 import { ProductItemComponent } from 'src/app/product-item/product-item.component';
 import { from } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-items-list',
@@ -29,7 +30,9 @@ export class ItemsListComponent {
   filterCategory: string = '';
   @ViewChild(ProductItemComponent) productItem:ProductItemComponent;
 
-  constructor(private store: Store<AppState>) { }
+  categories = ['Electronics','Gaming','Books'];
+
+  constructor(private store: Store<AppState>, private router: Router) { }
 
   ngOnInit(): void {
     this.items = this.store.select(store => store.shopping.items);
@@ -122,4 +125,9 @@ export class ItemsListComponent {
         })
       );
   }
+  openProductDetails(productId: number): void {
+    this.router.navigate(['/products', productId]);
+  }
+  
 }
+
