@@ -9,6 +9,7 @@ import { ProductItemComponent } from 'src/app/product-item/product-item.componen
 import { from } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Router } from '@angular/router';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @Component({
   selector: 'app-items-list',
@@ -30,7 +31,7 @@ export class ItemsListComponent {
   filterCategory: string = '';
   @ViewChild(ProductItemComponent) productItem:ProductItemComponent;
 
-  constructor(private store: Store<AppState>, private router: Router) { }
+  constructor(private store: Store<AppState>, public router: Router) { }
 
   ngOnInit(): void {
     this.items = this.store.select(store => store.shopping.items);
@@ -47,7 +48,7 @@ export class ItemsListComponent {
       this.cartItems.push(newItem);
     }
   }
-  
+
   deleteItem(item: ProductItem): void {
     const index = this.cartItems.indexOf(item);
     if (index !== -1) {
@@ -68,32 +69,38 @@ export class ItemsListComponent {
 
   filterItemsByName(event: any): void {
     const filterValue = event.target.value.trim().toLowerCase();
+    console.log("Filtervalue"+ filterValue);
     this.items = this.store.select(store => store.shopping.items)
       .pipe(
         map(items => {
           if (filterValue) {
+            items.filter(item => item.name.toLowerCase().includes(filterValue));
             return items.filter(item => item.name.toLowerCase().includes(filterValue));
           } else {
             return items;
           }
         })
       );
+      console.log(this.items);
   }
   
 
-  filterItemsByCategory(event: any): void {
-    const filterValue = event.target.value.trim().toLowerCase();
-    this.items = this.store.select(store => store.shopping.items)
-      .pipe(
-        map(items => {
-          if (filterValue) {
-            return items.filter(item => item.category.toLowerCase().includes(filterValue));
-          } else {
-            return items;
-          }
-        })
-      );
-  }
+selectedCategories: string[] = [];
+categories: string[] = ["Electronics", "Gaming", "Kitchen", "Sports","Kitchen","Toys","Books","Beauty"]; 
+
+filterItemsByCategory(): void {
+  this.items = this.store.select(store => store.shopping.items)
+    .pipe(
+      map(items => {
+        if (this.selectedCategories.length > 0) {
+          return items.filter(item => this.selectedCategories.includes(item.category));
+        } else {
+          return items;
+        }
+      })
+    );
+}
+
   openProductDetails(productId: number): void {
     this.router.navigate(['/products', productId]);
   }

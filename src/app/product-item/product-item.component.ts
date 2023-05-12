@@ -21,7 +21,7 @@ export class ProductItemComponent {
   ngOnInit(): void {
     this.cartItems = this.store.select(store => store.shopping.cart);
     this.cartItems.subscribe((data) => {
-      const item = data.find(x => x.item.id === this.product.id)
+      const item = data.find(x => x.item.id === this.product?.id)
       this.quantity = item?.quantity || 0;
     })
 
@@ -39,7 +39,9 @@ export class ProductItemComponent {
     event.preventDefault()
     event.stopPropagation()
 
-    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
+    if (this.product && this.product.image) {
+      this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
+    }
   }
 
   deleteItemFromCart(event: any) {

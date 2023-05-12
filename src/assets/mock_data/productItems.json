@@ -6,7 +6,7 @@
     "quantityAvailable": 10,
     "price": 20,
     "description": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones designed, developed, and marketed by Apple Inc.",
-    "Specifications":"146.7 x 71.5 x 7.4 mm, 6.1 inches, 90.2 cm2, iOS 14.1, upgradable to iOS 16.4.1, 128GB 6GB RAM",  
+    "specifications":"146.7 x 71.5 x 7.4 mm, 6.1 inches, 90.2 cm2, iOS 14.1, upgradable to iOS 16.4.1, 128GB 6GB RAM",  
     "image": "https://ovantica.com/pub/media/catalog/product/cache/359e51c8e354c4e2b5af98e814f93978/1/2/12_pro_grp_1_.jpg"
   },
   {
@@ -16,7 +16,8 @@
     "quantityAvailable": 5,
     "price": 20,
     "description": "The Samsung Galaxy S21 is a series of Android-based smartphones designed, developed, marketed, and manufactured by Samsung Electronics as part of its Galaxy.",
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990elvginu/gallery/in-galaxy-s21-fe-g990-sm-g990elvginu-thumb-530606516?imwidth=480"
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990elvginu/gallery/in-galaxy-s21-fe-g990-sm-g990elvginu-thumb-530606516?imwidth=480",
+    "specifications":"SMOOTH SCROLLING, 6.7 x 3.4 x 2.44 inches, 6.7 ounces, 6 GB RAM, Bluetooth, Wi-Fi, USB, NFC, AMOLED"  
   },
   {
     "id": 3,
@@ -25,7 +26,8 @@
     "quantityAvailable": 8,
     "price": 20,
     "description": "The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment.",
-    "image": "https://boip.in/47318-large_default/sony-playstation-5-ps5-console-complete-set-imported.jpg"
+    "image": "https://boip.in/47318-large_default/sony-playstation-5-ps5-console-complete-set-imported.jpg",
+    "specifications":"Lightning Speed, 0.79 x 1.18 x 0.5 inches; 12 Pounds, Multilingual, 1 Lithium Ion batteries required. (included)"  
   },
   {
     "id": 4,
@@ -34,7 +36,8 @@
     "quantityAvailable": 3,
     "price": 20,
     "description": "The Xbox Series X and Series S are the fourth generation of the Xbox series of home video game consoles developed and sold by Microsoft.",
-    "image": "https://assets.xboxservices.com/assets/2b/50/2b50e275-53ee-4da9-a3d4-55d33548e017.jpg?n=Xbox-Series-X_Superhero-0_Dream-Particles_768x1034.jpg"
+    "image": "https://assets.xboxservices.com/assets/2b/50/2b50e275-53ee-4da9-a3d4-55d33548e017.jpg?n=Xbox-Series-X_Superhero-0_Dream-Particles_768x1034.jpg",
+    "specifications":"SURROUND SOUND, 13.37 pounds,2 AA batteries required. (included), 11.57 x 14.88 x 8.5 inches; 13.37 Pounds."  
   },
   {
     "id": 5,
@@ -43,7 +46,8 @@
     "quantityAvailable": 12,
     "price": 20,
     "description": "Nike Air Max is a line of shoes produced by Nike, Inc., with the first model released in 1987.",
-    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png",
+    "specifications":"Black,100% Elastic sole, Unisex Shoes, 15 x 9 x 6 inches, Durable, Limited edition"  
   },
   {
     "id": 6,
@@ -52,7 +56,8 @@
     "quantityAvailable": 6,
     "price": 20,
     "description": "Adidas Stan Smith is a tennis shoe made by Adidas, and first launched in 1965. ",
-    "image": "https://m.media-amazon.com/images/I/71JqPPoDliL._AC_UY1000_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71JqPPoDliL._AC_UY1000_.jpg",
+    "specifications":"Blue,100% Synthetic Rubber sole, Unisex Shoes, 5 x 9 x 6 inches, Natural Comfort"  
   },
   {
     "id": 7,
@@ -61,7 +66,8 @@
     "quantityAvailable": 15,
     "price": 20,
     "description": "AirPods Pro are wireless Bluetooth in-ear headphones designed by Apple, initially released on October 30, 2019.",
-    "image": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"USB, Bluetooth 5.1, Black High-fidelity audio, Noise-rejecting microphones."  
   },
   {
     "id": 8,
@@ -70,7 +76,8 @@
     "quantityAvailable": 9,
     "price": 20,
     "description": "Dell XPS is a line of consumer-oriented high-end laptop and desktop computers manufactured by Dell.",
-    "image": "https://m.media-amazon.com/images/I/61hSHC1ClAL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/61hSHC1ClAL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"15.6 Inches, Scarlet Red, 128 GB HDD, 8GB RAM, Intel Pentium Silver N5000, Windows 11 Home"  
   },
   {
     "id": 9,
@@ -79,7 +86,8 @@
     "quantityAvailable": 7,
     "price": 20,
     "description": "HP Pavilion is a line of consumer-oriented laptop and desktop computers produced by HP Inc.",
-    "image": "https://m.media-amazon.com/images/I/711Nx6ZoRML._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/711Nx6ZoRML._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"15.6 Inches, Scarlet Red, 128 GB HDD, 8GB RAM, Intel Pentium Silver N5000, Windows 11 Home"  
   },
   {
     "id": 10,
@@ -88,7 +96,8 @@
     "quantityAvailable": 11,
     "price": 20,
     "description": "The WH-1000XM4 are closed-back headphones with a single 40mm dynamic driver on either side",
-    "image": "https://m.media-amazon.com/images/I/61ldeo9lYbL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/61ldeo9lYbL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"Black, Wireless, On Ear Noise Sensor technology, 30-hour battery, Speak-to-chat technology"  
   },
   {
     "id": 11,
@@ -97,7 +106,8 @@
     "quantityAvailable": 4,
     "price": 20,
     "description": "The logitech g502 is a mouse that was released by logitech in the year 2014. It features a free spinning wheel as well as the PWM3366 sensor.",
-    "image": "https://m.media-amazon.com/images/I/81-nE4e2YvL._AC_UL1280_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/81-nE4e2YvL._AC_UL1280_FMwebp_QL65_.jpg",
+    "specifications":"Black, LIGHTSPEED, Wireless charging, 100 - 25,600 max dpi, 11 Buttons, Compatible."  
   },
   {
     "id": 12,
@@ -106,7 +116,8 @@
     "quantityAvailable": 6,
     "price": 20,
     "description": "Razer BlackWidow is a range of mechanical gaming keyboards made by Razer.",
-    "image": "https://m.media-amazon.com/images/I/81fLbHCerOL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/81fLbHCerOL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"USB, HDMI, BlackWidow Elite, Multimedia Keyboard, Wrist Support Ergonomic, Magnetic Wrist Rest."  
   },
   {
     "id": 13,
@@ -115,7 +126,8 @@
     "quantityAvailable": 8,
     "price": 20,
     "description": "Levi Strauss & Co is an American clothing company known worldwide for its Levi's brand of denim jeans.",
-    "image": "https://m.media-amazon.com/images/I/51QW283UXbS._AC_SR480,220_QL70_.jpg"
+    "image": "https://m.media-amazon.com/images/I/51QW283UXbS._AC_SR480,220_QL70_.jpg",
+    "specifications":"100% Cotton, Imported, Zipper closure, Sits at waist, 6' 1 and is wearing 32 x 32."  
   },
   {
     "id": 14,
@@ -124,7 +136,8 @@
     "quantityAvailable": 7,
     "price": 20,
     "description": "Ray-Ban Wayfarer sunglasses have been manufactured by Ray-Ban since 1952, which in turn has belonged to the Italian Luxottica Group since 1999.",
-    "image": "https://m.media-amazon.com/images/I/317B4CN0pfL._AC_SR480,220_QL70_.jpg"
+    "image": "https://m.media-amazon.com/images/I/317B4CN0pfL._AC_SR480,220_QL70_.jpg",
+    "specifications":"Plastic frame Glass, lens, Non-Polarized, UV Protection, coating Lens, width: 55 millimeters "  
   },
   {
     "id": 15,
@@ -133,7 +146,8 @@
     "quantityAvailable": 9,
     "price": 20,
     "description": "The Canon EOS 800D, known in the Americas as the EOS Rebel T7i and in Japan as the EOS Kiss X9i, is a digital single-lens reflex camera announced by Canon.",
-    "image": "https://m.media-amazon.com/images/I/71x1uAc9KjL._AC_SR360,240_QL70_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71x1uAc9KjL._AC_SR360,240_QL70_.jpg",
+    "specifications":"DSLR, 4.21 Pounds, 1080p, CMOS, 1 x Camera Bag, 1 x Memory Card Reader 1 x Hand Strap, 1 x Lens Cap Keeper"  
   },
   {
     "id": 16,
@@ -142,7 +156,8 @@
     "quantityAvailable": 10,
     "price": 20,
     "description": "The Nintendo Switch is a hybrid video game console developed by Nintendo and released worldwide in most regions on March 3, 2017.",
-    "image": "https://m.media-amazon.com/images/I/71YDg2Rg9cL._AC_SR360,240_QL70_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71YDg2Rg9cL._AC_SR360,240_QL70_.jpg",
+    "specifications":"7-inch, OLED screen,  Wired, LAN port, 64 GB internal storage, Enhanced audio, Wide adjustable stand"  
   },
   {
     "id": 17,
@@ -151,7 +166,8 @@
     "quantityAvailable": 3,
     "price": 20,
     "description": "Vans is an American manufacturer of skateboarding shoes and related apparel, established in Anaheim, California, and owned by VF Corporation.",
-    "image": "https://m.media-amazon.com/images/I/71-roQlhCuL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71-roQlhCuL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"100% Synthetic Rubber, sole, Unisex Shoes, 5 x 9 x 6 inches, 1 AA batteries required."  
   },
   {
     "id": 18,
@@ -160,7 +176,8 @@
     "quantityAvailable": 5,
     "price": 20,
     "description": "Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication.",
-    "image": "https://m.media-amazon.com/images/I/71aLryIN+ZL.jpg"
+    "image": "https://m.media-amazon.com/images/I/71aLryIN+ZL.jpg",
+    "specifications":"40mm, M/L - fits, 150–200mm, wrists Sleep Monitor, Activity Tracker, Voice Control, GPS, Heart Rate Monitor."  
   },
   {
     "id": 19,
@@ -169,7 +186,8 @@
     "quantityAvailable": 12,
     "price": 20,
     "description": "The GoPro HERO (2014) can capture 5mp still images and has a 5fps burst option. It is able to record 1080P at 30 or 25fps and 720P at 60 or 50fps.",
-    "image": "https://m.media-amazon.com/images/I/8167Vk47NGL._AC_UL800_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/8167Vk47NGL._AC_UL800_FMwebp_QL65_.jpg",
+    "specifications":"MicroSDHC, Waterproof, 1.9 Inches, High-Res Photos + Videos Black Camera, Enduro Battery"  
   },
   {
     "id": 20,
@@ -178,7 +196,8 @@
     "quantityAvailable": 8,
     "price": 20,
     "description": "The QuietComfort Earbuds (QC Earbuds) were released on 5 October 2020.",
-    "image": "https://m.media-amazon.com/images/I/71nDq64qKIL._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71nDq64qKIL._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"USB, Bluetooth 5.1, Black High-fidelity audio, Noise-rejecting microphones."  
   },
   {
     "id": 21,
@@ -187,7 +206,8 @@
     "quantityAvailable": 10,
     "price": 15,
     "description": "The third and final book in the New York Times-bestselling Remnant Chronicles.",
-    "image": "https://m.media-amazon.com/images/I/91Jo+-PQE6L._AC_UY436_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/91Jo+-PQE6L._AC_UY436_FMwebp_QL65_.jpg",
+    "specifications":"624 pages, On Kindle Scribe, X-Ray enabled, English, Published August 2, 2016"  
   },
   {
     "id": 22,
@@ -196,7 +216,8 @@
     "quantityAvailable": 14,
     "price": 10,
     "description": "Join Mickey Mouse on a mixed-up adventure with the Disney Junior Mickey Mouse Beanbag Plush.",
-    "image": "https://m.media-amazon.com/images/I/71H4pyP8AgL._AC_UL800_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71H4pyP8AgL._AC_UL800_FMwebp_QL65_.jpg",
+    "specifications":"6 x 3 x 9 inches, 2.89 ounces, Hong Kong, mixed-texture materials."  
   },
   {
     "id": 23,
@@ -205,7 +226,8 @@
     "quantityAvailable": 5,
     "price": 15,
     "description": "High-Carbon Stainless Steel Blade- It is manufactured from high-quality stainless steel that maintains its functionality for a long time.",
-    "image": "https://m.media-amazon.com/images/I/71jTqtlWTBL._AC_UL800_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/71jTqtlWTBL._AC_UL800_FMwebp_QL65_.jpg",
+    "specifications":"Stainless Steel, carbon, Utopia Kitchen, EXCEPTIONAL CUT, DISHWASHER-SAFE, EASY TO USE"  
   },
   {
     "id": 24,
@@ -214,7 +236,8 @@
     "quantityAvailable": 17,
     "price": 20,
     "description": "Street ball will never die. Built for summer tournaments and Saturdays at the park, the Spalding Street outdoor basketball holds to the official size and weight.",
-    "image": "https://m.media-amazon.com/images/I/7187crn3osS._AC_UL800_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/7187crn3osS._AC_UL800_FMwebp_QL65_.jpg",
+    "specifications":"WILSON, Tackskin Cover, Size 5 - 27.5, AIR RETENTION, SPACE-INSPIRED, GRAPHICS "  
   },
   {
     "id": 25,
@@ -223,6 +246,7 @@
     "quantityAvailable": 10,
     "price": 300,
     "description": "An enthralling and voluptuous fragrance, eloquent, symbolizing the Versace woman who is strong and sure of her charm; sensual and feminine, always glamorous",
-    "image": "https://m.media-amazon.com/images/I/51kABSdV3VL._AC_UL800_FMwebp_QL65_.jpg"
+    "image": "https://m.media-amazon.com/images/I/51kABSdV3VL._AC_UL800_FMwebp_QL65_.jpg",
+    "specifications":"1.7 oz, Eau de Toilette Spray, 50 Milliliters, Liquid, Tested, Most Reviewed"  
   }
 ]

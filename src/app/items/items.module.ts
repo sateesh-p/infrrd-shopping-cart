@@ -4,18 +4,19 @@ import { ItemsListComponent } from './items-list/items-list.component';
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from '../../pipes/filter.pipe';
 import { ProductItemComponentModule } from '../product-item/product-item.module';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 
 @NgModule({
   declarations: [
     ItemsListComponent,
     FilterPipe,
-    // ProductItemComponent,
   ],
   imports: [
     CommonModule,
     FormsModule,
-    ProductItemComponentModule
+    NgSelectModule,
+    ProductItemComponentModule,    
   ],
   exports: [
     ItemsListComponent

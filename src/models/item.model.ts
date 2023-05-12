@@ -4,9 +4,9 @@ export interface ProductItem {
   name: string;
   price: number;
   description: string;
-  image: string;
+  image?: string;
   category: string;
   quantityAvailable: number;
   quantityToCart?: number;
-  specifications: string;
+  specifications?: string;
 }

@@ -1,9 +1,28 @@
+<div class="filter-row">
+  <div class="filter-checkbox">
+    <label>
+      <input type="checkbox" (change)="toggleSort($event)"> Sort Items Alphabetically
+    </label>
+  </div>
+  
+  <div class="filter-input">
+    <label>Filter by Name</label>
+    <input type="text" placeholder="Filter by Name" (keyup)="filterItemsByName($event)">
+  </div>
+  
+  <div class="filter-select">
+    <label>Filter by Category</label>
+    <ng-select [items]="categories"
+               bindLabel="name"
+               bindValue="id"
+               [multiple]="true"
+               placeholder="Select Categories"
+               (change)="filterItemsByCategory()"
+               [(ngModel)]="selectedCategories">
+    </ng-select>
+  </div>
+</div>
 
-<input type="checkbox" (change)="toggleSort($event)"> Sort Items Alphabetically
-
-<input type="text" placeholder="Filter by Name" (keyup)="filterItemsByName($event)">
-
-<input type="text" placeholder="Filter by Category" (keyup)="filterItemsByCategory($event)">
 
 <div class="product-list">
   <app-product-item *ngFor="let item of items | async" [product]="item" (click)="openProductDetails(item.id)"></app-product-item>
