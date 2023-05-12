@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "prod": "ng build --output-path docs --base-href /",
+    "prod": "ng build --output-path docs --base-href /infrrd-shopping-cart/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
