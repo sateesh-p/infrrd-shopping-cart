@@ -17,7 +17,7 @@ export class ItemsService {
   private cart: ProductItem[] = [];
 
   getAllItems() {
-    const url: string = '/assets/mock_data/productItems.json';
+    const url: string = 'assets/mock_data/productItems.json';
     return this.http.get(url)
   }
 /*Function to add items from cart */
