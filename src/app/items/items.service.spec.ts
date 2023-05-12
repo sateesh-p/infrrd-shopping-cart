@@ -33,7 +33,7 @@ describe('ItemsService', () => {
       expect(response).toEqual(items);
     });
 
-    const req = httpMock.expectOne('/assets/mock_data/productItems.json');
+    const req = httpMock.expectOne('src/assets/mock_data/productItems.json');
     expect(req.request.method).toBe('GET');
     req.flush(items);
   });
