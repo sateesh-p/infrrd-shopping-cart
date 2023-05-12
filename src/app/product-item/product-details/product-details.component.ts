@@ -38,7 +38,12 @@ export class ProductDetailsComponent {
   }
 
   addToCart() {
-    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
+    if (this.quantity + 1 <= this.product.quantityAvailable) {
+      this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
+    }  
+    else{
+      alert("Sorry! Only "+this.product.quantityAvailable+" items available");
+    }
   }
 
   removeFromCart() {

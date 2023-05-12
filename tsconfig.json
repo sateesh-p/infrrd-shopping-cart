@@ -32,6 +32,5 @@
   },
   "compilerOptions": {
     "strictPropertyInitialization": false,
-    "strictNullChecks": false
   }
 }

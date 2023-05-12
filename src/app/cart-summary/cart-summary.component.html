@@ -1,0 +1,11 @@
+<div>
+  <h3>Order Summary</h3>
+  <ol>
+    <ng-container *ngFor="let cartItem of cartItems | async">
+      <li class="margin-t-20">
+        {{cartItem.item.name}} - ${{cartItem.item.price}} x {{cartItem.quantity}} => ${{cartItem.totalAmount}}
+      </li>
+    </ng-container>
+  </ol>
+  <div>Total Amount: ${{totalAmount}}</div>
+</div>

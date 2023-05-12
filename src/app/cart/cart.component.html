@@ -1,7 +1,22 @@
-<div class="product-list">
-  <ng-container *ngFor="let item of cartItems | async">
-    <div class="product-item">
-      <app-product-item [product]="item.item"></app-product-item>
+<div>
+  <div *ngIf="((cartItems | async)?.length ?? 0) >0; else noItems">
+    <div class="display-flex">
+      <div class="product-list width-60">
+        <ng-container *ngFor="let item of cartItems | async">
+          <div class="product-item">
+            <app-product-item [product]="item.item"></app-product-item>
+          </div>
+        </ng-container>
+      </div>
+      <div class="width-40">
+        <app-cart-summary />
+      </div>
     </div>
-  </ng-container>
+  </div>
+  <ng-template #noItems>
+    <div>
+      <h2>No Items added to cart. Please add items</h2>
+    </div>
+    <button (click)="goToHomePage()">Go to Home Page</button>
+  </ng-template>
 </div>

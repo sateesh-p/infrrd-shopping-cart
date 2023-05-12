@@ -30,8 +30,6 @@ export class ItemsListComponent {
   filterCategory: string = '';
   @ViewChild(ProductItemComponent) productItem:ProductItemComponent;
 
-  categories = ['Electronics','Gaming','Books'];
-
   constructor(private store: Store<AppState>, private router: Router) { }
 
   ngOnInit(): void {

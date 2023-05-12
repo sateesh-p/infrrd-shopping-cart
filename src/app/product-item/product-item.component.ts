@@ -27,16 +27,25 @@ export class ProductItemComponent {
 
   }
 
-  addToCart() {
-    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
+  addToCart(event: any) {
+    event.preventDefault()
+    event.stopPropagation()
+    if (this.quantity + 1 <= this.product.quantityAvailable) {
+      this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
+    }
   }
 
-  removeFromCart() {
+  removeFromCart(event: any) {
+    event.preventDefault()
+    event.stopPropagation()
+
     this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
   }
 
-  deleteItemFromCart(){
-    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: 0} }));
+  deleteItemFromCart(event: any) {
+    event.preventDefault()
+    event.stopPropagation()
+    this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: 0 } }));
   }
 
 }

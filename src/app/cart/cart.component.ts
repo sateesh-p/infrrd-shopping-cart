@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { AppState } from 'src/models/app-state.model';
@@ -11,8 +12,11 @@ import { CartItem } from 'src/models/cart-item.model';
 })
 export class CartComponent {
   cartItems: Observable<CartItem[]>;
-  constructor(private store: Store<AppState>) { }
+  constructor(private store: Store<AppState>, private router: Router) { }
   ngOnInit(): void {
     this.cartItems = this.store.select(store => store.shopping.cart);
+  }
+  goToHomePage() {
+    this.router.navigate(['/'])
   }
 }

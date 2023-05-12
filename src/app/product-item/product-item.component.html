@@ -11,17 +11,17 @@
   </div>
 
   <div class="product-actions">
-    <button (click)="deleteItemFromCart()" *ngIf="quantity > 0">
+    <button (click)="deleteItemFromCart($event)" class="mr-2" *ngIf="quantity > 0">
       Delete
     </button>
-    <button class="product-actions__add" (click)="addToCart()" *ngIf="quantity === 0">
+    <button class="product-actions__add" (click)="addToCart($event)" *ngIf="quantity === 0">
       <img src="/assets/images/add-to-cart.png" alt="add to cart" />
     </button>
 
     <div class="number" *ngIf="quantity > 0">
-      <span class="minus" (click)="removeFromCart()">-</span>
+      <span class="minus" (click)="removeFromCart($event)">-</span>
       <input type="text" [value]="quantity" disabled />
-      <span class="plus" (click)="addToCart()">+</span>
+      <span class="plus" (click)="addToCart($event)">+</span>
     </div>
 
   </div>
