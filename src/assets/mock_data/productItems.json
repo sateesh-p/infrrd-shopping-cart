@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12 Pro",
+    "category": "Electronics",
+    "quantityAvailable": 10,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://ovantica.com/pub/media/catalog/product/cache/359e51c8e354c4e2b5af98e814f93978/1/2/12_pro_grp_1_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "category": "Electronics",
+    "quantityAvailable": 5,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990elvginu/gallery/in-galaxy-s21-fe-g990-sm-g990elvginu-thumb-530606516?imwidth=480"
+  },
+  {
+    "id": 3,
+    "name": "Sony PlayStation 5",
+    "category": "Gaming",
+    "quantityAvailable": 8,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://boip.in/47318-large_default/sony-playstation-5-ps5-console-complete-set-imported.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Xbox Series X",
+    "category": "Gaming",
+    "quantityAvailable": 3,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://assets.xboxservices.com/assets/2b/50/2b50e275-53ee-4da9-a3d4-55d33548e017.jpg?n=Xbox-Series-X_Superhero-0_Dream-Particles_768x1034.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Nike Air Max 90",
+    "category": "Fashion",
+    "quantityAvailable": 12,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 6,
+    "name": "Adidas Stan Smith",
+    "category": "Fashion",
+    "quantityAvailable": 6,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 7,
+    "name": "Apple AirPods Pro",
+    "category": "Electronics",
+    "quantityAvailable": 15,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 8,
+    "name": "Dell XPS 13",
+    "category": "Electronics",
+    "quantityAvailable": 9,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 9,
+    "name": "HP Pavilion 15",
+    "category": "Electronics",
+    "quantityAvailable": 7,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 10,
+    "name": "Sony WH-1000XM4",
+    "category": "Electronics",
+    "quantityAvailable": 11,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 11,
+    "name": "Logitech G502",
+    "category": "Gaming",
+    "quantityAvailable": 4,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 12,
+    "name": "Razer BlackWidow Elite",
+    "category": "Gaming",
+    "quantityAvailable": 6,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 13,
+    "name": "Levis 501 Jeans",
+    "category": "Fashion",
+    "quantityAvailable": 8,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 14,
+    "name": "Ray-Ban Wayfarer Sunglasses",
+    "category": "Fashion",
+    "quantityAvailable": 7,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 15,
+    "name": "Canon EOS Rebel T7i",
+    "category": "Electronics",
+    "quantityAvailable": 9,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 16,
+    "name": "Nintendo Switch",
+    "category": "Gaming",
+    "quantityAvailable": 10,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 17,
+    "name": "Vans Old Skool",
+    "category": "Fashion",
+    "quantityAvailable": 3,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 18,
+    "name": "Apple Watch Series 6",
+    "category": "Electronics",
+    "quantityAvailable": 5,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 19,
+    "name": "GoPro Hero 9",
+    "category": "Electronics",
+    "quantityAvailable": 12,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  },
+  {
+    "id": 20,
+    "name": "Bose QuietComfort 35 II",
+    "category": "Electronics",
+    "quantityAvailable": 8,
+    "price": 20,
+    "description": "Edd",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08f113fb-396f-4445-a89b-f82752a7cb82/air-max-90-g-golf-shoe-qlD3wL.png"
+  }
+]
