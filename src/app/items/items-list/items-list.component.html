@@ -1,0 +1,10 @@
+
+<input type="checkbox" (change)="toggleSort($event)"> Sort Items Alphabetically
+
+<input type="text" placeholder="Filter by Name" (keyup)="filterItemsByName($event)">
+
+<input type="text" placeholder="Filter by Category" (keyup)="filterItemsByCategory($event)">
+
+<div class="product-list">
+  <app-product-item *ngFor="let item of items | async" [product]="item"></app-product-item>
+</div>

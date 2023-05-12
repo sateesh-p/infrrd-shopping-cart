@@ -1,0 +1,24 @@
+<div class="product">
+  <div class="product-image-holder">
+    <img [src]="product.image" [alt]="product.name" class="product-image" />
+  </div>
+  <div class="product-details">
+    <p class="product-details__name">{{ product.name }}</p>
+    <p class="product-details__price">${{ product.price }}</p>
+  </div>
+  <div class="product-description">
+    <p>{{ product.category }}</p>
+  </div>
+  <div class="product-actions">
+    <button class="product-actions__add" (click)="addToCart()" *ngIf="quantity === 0">
+      <img src="/assets/images/add-to-cart.png" alt="add to cart" />
+    </button>
+
+    <div class="number" *ngIf="quantity > 0">
+      <span class="minus" (click)="removeFromCart()">-</span>
+      <input type="text" [value]="quantity" disabled />
+      <span class="plus" (click)="addToCart()">+</span>
+    </div>
+
+  </div>
+</div>
