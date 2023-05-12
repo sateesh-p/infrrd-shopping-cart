@@ -1,0 +1,10 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    flex: 0 0 25%; /* Adjust the width as needed */
+    padding: 10px;
+  }
+  

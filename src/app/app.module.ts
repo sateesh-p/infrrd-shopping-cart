@@ -13,20 +13,18 @@ import { CartComponent } from './cart/cart.component';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { CartModule } from './cart/cart.module';
 // import { ProductItemComponentModule } from './product-item/product-item.module';
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    // CartComponent,
-    // ProductItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ItemsModule,
     CartModule,
-    // ProductItemComponentModule,
     HttpClientModule,
     StoreModule.forRoot({
       shopping: ShopReducer

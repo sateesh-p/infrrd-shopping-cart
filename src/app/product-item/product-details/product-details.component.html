@@ -1,0 +1,50 @@
+<div class="product-details">
+    <div class="image-container">
+      <img [src]="product.image" alt="Product Image">
+    </div>
+    <!-- <div class="details-container">
+      <h2>{{ product.name }}</h2>
+    </div>
+    <div class="product-actions">
+        <button (click)="addToCart()" *ngIf="quantity === 0" class="add-to-cart-button">
+          <img src="/assets/images/add-to-cart.png" alt="add to cart" class="add-to-cart-icon" />
+          Add to cart
+        </button>
+    
+        <div class="number" *ngIf="quantity > 0">
+          <span class="minus" (click)="removeFromCart()">-</span>
+          <input type="text" [value]="quantity" disabled />
+          <span class="plus" (click)="addToCart()">+</span>
+        </div>
+    
+      </div> -->
+      <div class="details-container">
+        <div class="product-info">
+            <h2>{{ product.name }}</h2>
+            <div class="product-description">{{ product.description }}</div>
+            <div class="price-info">
+                <span class="label">Price:</span>
+                <span class="product-price">${{ product.price }}</span>
+            </div>
+            <div class="specifications">
+                <span class="label">Specifications</span>
+                <div class="value">{{ product.specifications }}</div>
+            </div>
+        </div>
+        <div class="product-actions">
+            <button (click)="addToCart()" *ngIf="quantity === 0" class="add-to-cart-button">
+              <img src="/assets/images/add-to-cart.png" alt="add to cart" class="add-to-cart-icon" />
+              Add to cart
+            </button>
+        
+            <div class="number" *ngIf="quantity > 0">
+              <span class="minus" (click)="removeFromCart()">-</span>
+              <input type="text" [value]="quantity" disabled />
+              <span class="plus" (click)="addToCart()">+</span>
+            </div>
+        
+          </div>
+      </div>
+      
+</div>
+  

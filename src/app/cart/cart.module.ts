@@ -15,7 +15,8 @@ import { ProductItemComponentModule } from '../product-item/product-item.module'
     ProductItemComponentModule
   ],
   exports: [
-    CartComponent
+    CartComponent,
+    ProductItemComponentModule
   ]
 })
 export class CartModule { }

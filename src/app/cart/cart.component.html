@@ -1,3 +1,7 @@
 <div class="product-list">
-  <app-product-item *ngFor="let item of cartItems | async" [product]="item.item"></app-product-item>
+  <ng-container *ngFor="let item of cartItems | async">
+    <div class="product-item">
+      <app-product-item [product]="item.item"></app-product-item>
+    </div>
+  </ng-container>
 </div>
