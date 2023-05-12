@@ -16,6 +16,7 @@ export class CartComponent {
   ngOnInit(): void {
     this.cartItems = this.store.select(store => store.shopping.cart);
   }
+  /*Function to redirect to homepage */
   goToHomePage() {
     this.router.navigate(['/'])
   }

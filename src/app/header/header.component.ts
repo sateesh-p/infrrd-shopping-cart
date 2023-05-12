@@ -25,9 +25,11 @@ export class HeaderComponent {
       this.cartItemsCount = count;
     })
   }
+  /*Function to Navigate to cart */
   onNavigateCart() {
     this.router.navigate(['/cart'])
   }
+  /*Function to Navigate to home */
   onNavigateHome() {
     this.router.navigate(['/'])
   }

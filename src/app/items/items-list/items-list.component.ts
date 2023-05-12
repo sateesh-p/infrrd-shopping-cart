@@ -29,7 +29,9 @@ export class ItemsListComponent {
   newItemQuantities: number[] = [];
   filterName: string = '';
   filterCategory: string = '';
-  @ViewChild(ProductItemComponent) productItem:ProductItemComponent;
+  @ViewChild(ProductItemComponent) productItem: ProductItemComponent;
+  selectedCategories: string[] = [];
+  categories: string[] = ["Electronics", "Gaming", "Kitchen", "Sports", "Kitchen", "Toys", "Books", "Beauty"];
 
   constructor(private store: Store<AppState>, public router: Router) { }
 
@@ -41,6 +43,7 @@ export class ItemsListComponent {
     this.loading$ = this.store.select(store => store.shopping.loading);
     this.store.dispatch(getItems());
   }
+/*Function to add Item to cart */
   addToCart(item: ProductItem): void {
     const quantity = this.newItemQuantities[item.id - 1];
     if (quantity > 0 && item.quantityAvailable >= quantity) {
@@ -48,15 +51,15 @@ export class ItemsListComponent {
       this.cartItems.push(newItem);
     }
   }
-
+/*Function to delete Item from cart */
   deleteItem(item: ProductItem): void {
     const index = this.cartItems.indexOf(item);
     if (index !== -1) {
       this.cartItems.splice(index, 1);
     }
   }
-
-  toggleSort(event:any): void {
+/*Function to Sort items list Alphabetically */
+  toggleSort(event: any): void {
     if (event.target.checked) {
       this.items.subscribe((data) => {
         const sortedItems = data.slice().sort((a, b) => a.name.localeCompare(b.name));
@@ -66,10 +69,9 @@ export class ItemsListComponent {
       this.items = this.store.select(store => store.shopping.items);
     }
   }
-
+/*Function to filter items by Name */
   filterItemsByName(event: any): void {
     const filterValue = event.target.value.trim().toLowerCase();
-    console.log("Filtervalue"+ filterValue);
     this.items = this.store.select(store => store.shopping.items)
       .pipe(
         map(items => {
@@ -81,29 +83,25 @@ export class ItemsListComponent {
           }
         })
       );
-      console.log(this.items);
+    console.log(this.items);
   }
-  
-
-selectedCategories: string[] = [];
-categories: string[] = ["Electronics", "Gaming", "Kitchen", "Sports","Kitchen","Toys","Books","Beauty"]; 
-
-filterItemsByCategory(): void {
-  this.items = this.store.select(store => store.shopping.items)
-    .pipe(
-      map(items => {
-        if (this.selectedCategories.length > 0) {
-          return items.filter(item => this.selectedCategories.includes(item.category));
-        } else {
-          return items;
-        }
-      })
-    );
-}
-
+/*Function to filter items by category */
+  filterItemsByCategory(): void {
+    this.items = this.store.select(store => store.shopping.items)
+      .pipe(
+        map(items => {
+          if (this.selectedCategories.length > 0) {
+            return items.filter(item => this.selectedCategories.includes(item.category));
+          } else {
+            return items;
+          }
+        })
+      );
+  }
+/*Function to open Product details page */
   openProductDetails(productId: number): void {
     this.router.navigate(['/products', productId]);
   }
-  
+
 }
 

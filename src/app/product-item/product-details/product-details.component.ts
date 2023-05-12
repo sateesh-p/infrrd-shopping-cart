@@ -36,7 +36,7 @@ export class ProductDetailsComponent {
       this.quantity = item?.quantity || 0;
     })
   }
-
+/*Function to add items to cart */
   addToCart() {
     if (this.quantity + 1 <= this.product.quantityAvailable) {
       this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
@@ -45,7 +45,7 @@ export class ProductDetailsComponent {
       alert("Sorry! Only "+this.product.quantityAvailable+" items available");
     }
   }
-
+/*Function to remove items from cart */
   removeFromCart() {
     this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
   }

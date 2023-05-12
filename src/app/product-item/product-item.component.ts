@@ -26,7 +26,7 @@ export class ProductItemComponent {
     })
 
   }
-
+/*Function to add items to cart */
   addToCart(event: any) {
     event.preventDefault()
     event.stopPropagation()
@@ -34,7 +34,7 @@ export class ProductItemComponent {
       this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity + 1 } }));
     }
   }
-
+/*Function to remove items from cart */
   removeFromCart(event: any) {
     event.preventDefault()
     event.stopPropagation()
@@ -43,7 +43,7 @@ export class ProductItemComponent {
       this.store.dispatch(updateCartItem({ payload: { item: this.product, quantity: this.quantity - 1 } }));
     }
   }
-
+/*Function to delete items from cart */
   deleteItemFromCart(event: any) {
     event.preventDefault()
     event.stopPropagation()

@@ -20,7 +20,7 @@ export class ItemsService {
     const url: string = '/assets/mock_data/productItems.json';
     return this.http.get(url)
   }
-
+/*Function to add items from cart */
   addToCart(item: ProductItem, quantity: number): void {
     const existingItem = this.cart.find(i => i.id === item.id);
 
@@ -34,7 +34,7 @@ export class ItemsService {
 
     item.quantityAvailable -= quantity;
   }
-
+/*Function to edit items in cart */
   editCartItem(item: ProductItem, quantity: number): void {
     const existingItem = this.cart.find(i => i.id === item.id);
 
@@ -43,7 +43,7 @@ export class ItemsService {
       item.quantityAvailable -= quantity;
     }
   }
-
+/*Function to delete items from cart */
   deleteCartItem(item: ProductItem): void {
     const index = this.cart.findIndex(i => i.id === item.id);
 
