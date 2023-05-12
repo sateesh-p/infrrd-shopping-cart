@@ -47,23 +47,7 @@ export class ItemsListComponent {
       this.cartItems.push(newItem);
     }
   }
-
-  // editItem(item: ProductItem): void {
-  //   this.selectedItem = item;
-  //   this.newItemName = item.name;
-  //   this.newItemCategory = item.category;
-  //   this.newItemQuantities[item.id - 1] = item.quantityAvailable;
-  // }
-
-  // updateItem(): void {
-  //   if (this.selectedItem) {
-  //     this.selectedItem.name = this.newItemName;
-  //     this.selectedItem.category = this.newItemCategory;
-  //     this.selectedItem.quantityAvailable = this.newItemQuantities[this.selectedItem.id - 1];
-  //     this.selectedItem = null;
-  //   }
-  // }
-
+  
   deleteItem(item: ProductItem): void {
     const index = this.cartItems.indexOf(item);
     if (index !== -1) {
@@ -71,19 +55,6 @@ export class ItemsListComponent {
     }
   }
 
-  resetForm(): void {
-    // this.selectedItem = null;
-    // this.newItemName = '';
-    // this.newItemCategory = '';
-    // this.newItemQuantities = this.items.map(item => item.quantityAvailable);
-  }
-
-  // sortItemsAlphabetically(): void {
-  //   this.items.subscribe((data) => {
-  //     const sortedItems = data.slice().sort((a, b) => a.name.localeCompare(b.name));
-  //     this.items = from([sortedItems]);
-  //   });
-  // }
   toggleSort(event:any): void {
     if (event.target.checked) {
       this.items.subscribe((data) => {

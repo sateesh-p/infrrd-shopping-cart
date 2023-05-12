@@ -53,18 +53,6 @@ export class ItemsService {
     }
   }
 
-  sortItemsAlphabetically(): void {
-    this.items.sort((a, b) => a.name.localeCompare(b.name));
-  }
-
-  filterItemsByName(name: string): ProductItem[] {
-    return this.items.filter(item => item.name.toLowerCase().includes(name.toLowerCase()));
-  }
-
-  filterItemsByCategory(category: string): ProductItem[] {
-    return this.items.filter(item => item.category.toLowerCase().includes(category.toLowerCase()));
-  }
-
   getCartItems(): ProductItem[] {
     return this.cart;
   }
